@@ -10,16 +10,16 @@ Zadání: Doplňte komponentu tak, aby každé tlačítko po kliknutí vypsalo, 
 
 export const Uloha3 = () => {
   const handleClickZima = () => {
-    alert('Uživatel zvolil zimu'); }
+    console.log('Uživatel zvolil zimu'); }
 
     const handleClickJaro = () => {
-      alert('Uživatel zvolil jaro'); }
+      console.log('Uživatel zvolil jaro'); }
 
       const handleClickLeto = () => {
-        alert('Uživatel zvolil leto'); }
+        console.log('Uživatel zvolil leto'); }
 
         const handleClickPodzim = () => {
-          alert('Uživatel zvolil podzim'); }
+          console.log('Uživatel zvolil podzim'); }
   return (
     <>
       Které roční období je ve střední Evropě nejteplejší?
